@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-unit-testing-in-depth",
+  "version": "1.0.0",
+  "description": "​A focused, in-depth look into Node.js unit testing, from absolute beginner to very advanced.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=development mocha './lib/**/*.test.js' --exit",
+    "coverage": "cross-env NODE_ENV=development nyc --reporter=text npm test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "1.4.0",
+    "crypto": "1.0.1",
+    "express": "4.17.1",
+    "mongoose": "5.9.16"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "cross-env": "7.0.2",
+    "nyc": "15.1.0",
+    "rewire": "5.0.0",
+    "sinon": "9.0.2",
+    "sinon-chai": "3.5.0",
+    "supertest": "4.0.2"
+  }
+}
