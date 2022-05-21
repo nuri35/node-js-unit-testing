@@ -45,8 +45,6 @@ In this project, it is a small study that I created on the information I obtaine
 
 Command Line Output: Tests Passing
 
-<p align="center"><img src="https://i.ibb.co/WDpBStz/better-test3.png" /></p>
-
-
+<p align="center"><img src="https://github.com/nuri35/node-js-unit-testing/blob/master/img/Ekran%20Al%C4%B1nt%C4%B1s%C4%B1.PNG" /></p>
 
 
